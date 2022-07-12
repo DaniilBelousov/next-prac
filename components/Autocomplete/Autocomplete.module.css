@@ -1,0 +1,16 @@
+.suggestions {
+  display: flex;
+  flex-direction: column;
+}
+
+.location {
+  font-size: 16px;
+  color: #2f2f2d;
+}
+
+.substring {
+  color: #2f2f2d;
+  font-size: 14px;
+}
+
+/*# sourceMappingURL=Autocomplete.module.css.map */

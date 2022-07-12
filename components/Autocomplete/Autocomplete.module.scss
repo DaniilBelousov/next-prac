@@ -1,0 +1,15 @@
+@import "../../lib/style/colors";
+
+.suggestions {
+  display: flex;
+  flex-direction: column;
+}
+
+.location {
+  color: $darkCharcoal;
+}
+
+.substring {
+  color: $darkCharcoal;
+  font-size: 0.1rem;
+}
