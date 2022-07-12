@@ -1,0 +1,28 @@
+.wrapper {
+  display: grid;
+  grid-template: "header header header" 10vh "aside-right content aside-left" 90vh/350px 1fr 350px;
+}
+
+.header {
+  grid-area: header;
+  background-color: darkslategrey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  grid-area: content;
+  background-color: whitesmoke;
+  box-shadow: -6px 11px 19px 10px rgba(34, 60, 80, 0.2);
+  -webkit-box-shadow: -6px 11px 19px 10px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: -6px 11px 19px 10px rgba(34, 60, 80, 0.2);
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: floralwhite;
+}
+
+/*# sourceMappingURL=Wrapper.module.css.map */
