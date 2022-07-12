@@ -1,0 +1,12 @@
+.search {
+  padding: 50px;
+  display: flex;
+  flex-direction: row;
+}
+
+.autocomplete {
+  width: 350px;
+  margin-right: 15px;
+}
+
+/*# sourceMappingURL=index.module.css.map */
